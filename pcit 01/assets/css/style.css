@@ -1,0 +1,240 @@
+:root {
+    --bg1: rgb(23, 148, 60);
+    --bg2: #000000;
+    --body: rgb(95, 86, 86);
+    --black: #181618;   
+    --white: rgb(255, 255, 255);
+    --p: rgb(245, 206, 116);
+
+}
+
+body {
+    background-color: var(--bg1);
+}
+a {
+    text-decoration: none;
+
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    min-height: auto;
+}
+
+.banner {
+    background:url(https://t4.ftcdn.net/jpg/06/86/34/79/240_F_686347936_Yyj9JbhOvHuv1Dq8y4nK7SHREFYRoCXT.jpg);
+    height: 100vh; 
+    background-size: cover;  
+}
+
+/* */
+.navbar {
+    background:linear-gradient(to bottom, hsla(0,2%,17%,0.829), rgba(44,42,42,0.884));
+}
+
+.navbar .nav-link:hover {
+    color: var(--brand);
+}
+
+.btn{
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 100px;
+}
+
+.btn-brand {
+    background-color: var(--black);
+    color: #fdf7f7;
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: var(--white);
+    border-color: var(--white);
+}
+
+.btn-outline-brand {
+    background-color: transparent;
+    color: var(--black);
+    border-color: var(--black);
+}
+
+.btn-outline-brand:hover {
+    background-color: var(--black);
+    color: var(--black);
+}
+
+#about  {
+    background-color: var(--bg1);
+}
+
+#about h6 {
+    color: var(--brand);
+}
+
+.icon-box-img {
+    width: 40%;
+}
+
+.btn-outline-brand {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand)
+}
+
+.btn-outline-brand:hover {
+    background-color: var(--brand);
+    color: var(--bg1);
+
+}
+
+.card {
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.card:hover {
+    background-color: var(--bg1);
+
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color:#f2b03b;
+}
+
+#cta {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* parallax effect */
+    background-attachment: fixed;
+     /* parallax effect / to remove to effect set to normal*/
+     background-image:url(https://t4.ftcdn.net/jpg/06/86/34/79/240_F_686347936_Yyj9JbhOvHuv1Dq8y4nK7SHREFYRoCXT.jpg);
+    min-height: 100vh;
+
+
+}
+
+#reviews {
+    background-color: var(--white);
+}
+
+.testimonials {
+    background-color: var(--bg2);
+    padding: 30px;
+
+}
+
+.testimonials img {
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+}
+
+#reviews a {
+    color: var(--brand);
+}
+
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+
+.accordion-button {
+    background-color: #f2b03b;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.accordion-body {
+    border-left: 3px solid var(--brand);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9fa;
+ }
+
+ .faq-answer p {
+    margin-bottom: 0;
+ }
+ .accordion-button:focus {
+    box-shadow: none;
+ }
+
+ .accordion-button:not(.collapsed) {
+    color: var(--bg1);
+ }
+
+ /* Hover effect for FQA questions */
+ .accordion-button:hover { 
+    background-color: red;  /* Change background color on hover  */
+    color: greenyellow; /* Change text color on hover  */
+ }
+
+ /* Adjust accordion icon */
+ .accordion-button::after {
+    font-family: "Font Awesome 5 Free";
+    content: ""; /* Plus icon */
+    float: right;
+    font-weight: 900;
+    margin-left: auto;
+ }
+
+ .accordion-button[aria-expanded="true"]::after {
+    content: "";/* Minus icon */
+ }
+
+ .footer .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.footer h5 {
+    margin-bottom: 10px;
+}
+
+.footer p {
+    margin-bottom: none;
+}
+
+@media (max-width: 800px) {
+    .footer .col-md-3 {
+        margin-bottom: 30px;
+    }
+}
+#footer {
+    background-color: lightblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
